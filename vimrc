@@ -80,3 +80,10 @@ endfun
 if has("autocmd")
 	autocmd BufWritePre *.js,*.py,*.wiki,*.sh,*.coffee,*.java :call CleanExtraSpaces()
 endif
+
+"Cut and paste
+"""""""""""""""
+imap <C-a> <ESC>ggVG
+vmap <C-c> "+yi
+vmap <C-v> c<ESC>"+p
+imap <C-v> <ESC>"+pa
