@@ -35,19 +35,12 @@ syntax enable
 
 "Text options
 """""""""""""
-"Use spaces instead of tabs
-set expandtab
-
 "Smart tabs
 set smarttab
 
 "Tab width
 set shiftwidth=4
 set tabstop=4
-
-"Linebreak at 120
-set lbr
-set tw=120
 
 set ai
 set si
