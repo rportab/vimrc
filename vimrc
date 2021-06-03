@@ -80,3 +80,8 @@ imap <C-a> <ESC>ggVG
 vmap <C-c> "+yi
 vmap <C-v> c<ESC>"+p
 imap <C-v> <ESC>"+pa
+
+"Custom commands
+""""""""""""""""
+"format as JSON
+command Json execute ":%!python -m json.tool"
