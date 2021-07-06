@@ -77,9 +77,12 @@ endif
 "Cut and paste
 """""""""""""""
 imap <C-a> <ESC>ggVG
+nmap <C-a> ggVG
 vmap <C-c> "+yi
+nmap <C-c> "+y
 vmap <C-v> c<ESC>"+p
 imap <C-v> <ESC>"+pa
+nmap <C-v> "+p
 
 "Custom commands
 """"""""""""""""
